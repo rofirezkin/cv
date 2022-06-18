@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+.jumbotron {
+padding-top: 100px;
+   
+
+}
+
+ .fixed-top.scrolled {
+    background-color: #141432 !important;
+    transition: background-color 200ms linear;
+    }
+
+.header {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(-45deg,  #332FD0, #9254C8, #6EDCD9);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.vl {
+
+    height: 100px;
+    position: relative;
+    background-color: red;
+   left: 40;
+    right:40%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  .about-me {
+      margin-top: 50px;
+    
+  }
+
+  
+
+
+
+.shadow-box {
+   
+    box-shadow:   30px 20px 50px #29C6D0, -30px 20px 50px #f729e2;
+    border: 3px solid white;
+}

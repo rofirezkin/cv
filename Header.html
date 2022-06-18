@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top mb-5 navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Rofi Rezkin </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand d-sm-none d-none d-lg-block" href="#">Work Request ></a>
+        </div>
+      </nav>
+      <!-- akhir navbar -->
+      <!-- jumbtron  -->
+
+      <div class="jumbotron text-center" style="padding-top: 100px">
+        <img class="d-none d-lg-block" style="position: absolute; left: 100px" src="img/helo.png" alt="helo" width="300" />
+        <img class="d-none d-lg-block" style="position: absolute; right: 300px" src="img/uiux.png" alt="helo" width="200" />
+        <img class="d-none d-lg-block" style="position: absolute; right: 30%; top: 35%" src="img/android.png" alt="helo" width="200" />
+        <img class="d-none d-lg-block" style="position: absolute; left: 20%; top: 35%" src="img/react.png" alt="helo" width="200" />
+        <img class="d-none d-lg-block" style="position: absolute; right: 10%; top: 40%" src="img/ios.png" alt="helo" width="200" />
+        <img src="img/remove.png" class="rounded-circle shadow-box" alt="rofi rezkin " width="300" />
+        <h1 class="display-4 mt-5 text-white">Front-End Developer</h1>
+        <p class="lead text-white">Banten, Indonesia</p>
+        <p class="lead my-5 text-white">Let's Work -></p>
+      </div>
+      <!-- jumbotron -->
+
+      <section class="h-100 w-100" style="box-sizing: border-box; background-color: #141432">
+        <style>
+          @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+          .content-3-3 .btn:focus,
+          .content-3-3 .btn:active {
+            outline: none !important;
+          }
+
+          .content-3-3 {
+            padding: 5rem 2rem;
+          }
+
+          .content-3-3 .img-hero {
+            width: 100%;
+            margin-bottom: 3rem;
+          }
+
+          .content-3-3 .right-column {
+            width: 100%;
+          }
+
+          .content-3-3 .title-text {
+            font: 600 1.875rem/2.25rem Poppins, sans-serif;
+            margin-bottom: 2.5rem;
+            letter-spacing: -0.025em;
+          }
+
+          .content-3-3 .title-caption {
+            font: 500 1.5rem/2rem Poppins, sans-serif;
+            margin-bottom: 1.25rem;
+          }
+
+          .content-3-3 .circle {
+            font: 500 1.25rem/1.75rem Poppins, sans-serif;
+            height: 3rem;
+            width: 3rem;
+            margin-bottom: 1.25rem;
+            border-radius: 9999px;
+            background-color: #504cee;
+          }
+
+          .content-3-3 .text-caption {
+            font: 400 1rem/1.75rem Poppins, sans-serif;
+            letter-spacing: 0.025em;
+            color: #999999;
+          }
+
+          .content-3-3 .btn-learn {
+            font: 600 1rem/1.5rem Poppins, sans-serif;
+            padding: 1rem 2.5rem;
+            background-color: #504cee;
+            transition: 0.3s;
+            letter-spacing: 0.025em;
+            border-radius: 0.75rem;
+          }
+
+          .content-3-3 .btn-learn:hover {
+            background-color: #7370ff;
+            transition: 0.3s;
+          }
+
+          @media (min-width: 768px) {
+            .content-3-3 .title-text {
+              font: 600 2.25rem/2.5rem Poppins, sans-serif;
+            }
+          }
+
+          @media (min-width: 992px) {
+            .content-3-3 .img-hero {
+              width: 50%;
+              margin-bottom: 0;
+            }
+
+            .content-3-3 .right-column {
+              width: 50%;
+            }
+
+            .content-3-3 .circle {
+              margin-right: 1.25rem;
+              margin-bottom: 0;
+            }
+          }
+        </style>
+      </section>
+      <section class="h-100 w-100" style="box-sizing: border-box; background-color: #141432">
+        <style>
+          @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+          .content-3-3 .btn:focus,
+          .content-3-3 .btn:active {
+            outline: none !important;
+          }
+
+          .content-3-3 {
+            padding: 5rem 2rem;
+          }
+
+          .content-3-3 .img-hero {
+            width: 100%;
+            margin-bottom: 3rem;
+          }
+
+          .content-3-3 .right-column {
+            width: 100%;
+          }
+
+          .content-3-3 .title-text {
+            font: 600 1.875rem/2.25rem Poppins, sans-serif;
+            margin-bottom: 2.5rem;
+            letter-spacing: -0.025em;
+          }
+
+          .content-3-3 .title-caption {
+            font: 500 1.5rem/2rem Poppins, sans-serif;
+            margin-bottom: 1.25rem;
+          }
+
+          .content-3-3 .circle {
+            font: 500 1.25rem/1.75rem Poppins, sans-serif;
+            height: 3rem;
+            width: 3rem;
+            margin-bottom: 1.25rem;
+            border-radius: 9999px;
+
+            background-color: #504cee;
+          }
+
+          .content-3-3 .text-caption {
+            font: 400 1rem/1.75rem Poppins, sans-serif;
+            letter-spacing: 0.025em;
+            color: #999999;
+          }
+
+          .content-3-3 .btn-learn {
+            font: 600 1rem/1.5rem Poppins, sans-serif;
+            padding: 1rem 2.5rem;
+            background-color: #504cee;
+            transition: 0.3s;
+            letter-spacing: 0.025em;
+            border-radius: 0.75rem;
+          }
+
+          .title-service {
+            background: linear-gradient(to right, #29c6d0 0%, #f729e2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .title-service2 {
+            background: linear-gradient(to right, #b2a4fb 0%, #ffd255 100%);
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .title-service3 {
+            background: linear-gradient(to right, #fa6565 0%, #cee440 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .content-3-3 .btn-learn:hover {
+            background-color: #7370ff;
+            transition: 0.3s;
+          }
+
+          @media (min-width: 768px) {
+            .content-3-3 .title-text {
+              font: 600 2.25rem/2.5rem Poppins, sans-serif;
+            }
+          }
+
+          @media (min-width: 992px) {
+            .content-3-3 .img-hero {
+              width: 50%;
+              margin-bottom: 0;
+            }
+
+            .content-3-3 .right-column {
+              width: 50%;
+            }
+
+            .content-3-3 .circle {
+              margin-right: 1.25rem;
+              margin-bottom: 0;
+            }
+          }
+        </style>
+        <div class="content-3-3 container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
+          <div class="d-flex flex-lg-row flex-column align-items-center">
+            <!-- Left Column -->
+            <div class="img-hero text-center justify-content-center d-flex">
+              <img id="hero" class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-1.png" alt="" />
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center">
+              <h2 class="title-text text-white">My Service</h2>
+              <ul style="padding: 0; margin: 0">
+                <li class="list-unstyled" style="margin-bottom: 2rem">
+                  <h4 class="title-caption text-white d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                    <span class="circle text-white d-flex align-items-center justify-content-center" style="color: #29c6d0"> 1 </span>
+                    <span class="title-service"> Website Developer Skill </span>
+                  </h4>
+                  <p class="text-caption">
+                    have knowledge in the fields of html, css, javascript <br class="d-sm-inline d-none" />
+                    React JS and node js to build a website for several year
+                  </p>
+                </li>
+                <li class="list-unstyled" style="margin-bottom: 2rem">
+                  <h4 class="title-caption text-white d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                    <span class="circle text-white d-flex align-items-center justify-content-center"> 2 </span>
+                    <span class="title-service2"> UI Designer </span>
+                  </h4>
+                  <p class="text-caption">
+                    have knowledge in the field of application <br class="d-sm-inline d-none" />
+                    and website design using figma
+                  </p>
+                </li>
+                <li class="list-unstyled" style="margin-bottom: 4rem">
+                  <h4 class="title-caption text-white d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                    <span class="circle text-white d-flex align-items-center justify-content-center"> 3 </span>
+                    <span class="title-service3"> Mobile Developer Skill </span>
+                  </h4>
+                  <p class="text-caption">
+                    have knowledge to build android/ios applications <br class="d-sm-inline d-none" />
+                    using the react native framework.
+                  </p>
+                </li>
+              </ul>
+              <button class="btn btn-learn text-white">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <style>
+          @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+          * {
+            font-family: "Poppins", "Inter", sans-serif !important;
+          }
+
+          body .right-circle img {
+            z-index: 0;
+            margin-top: -250px;
+            position: absolute;
+          }
+
+          body .porto {
+            background-color: #141432;
+            padding: 40px 30px;
+          }
+
+          @media only screen and (min-width: 768px) {
+            body .porto {
+              padding-top: 120px;
+              padding-bottom: 100px;
+            }
+          }
+
+          body .porto .headline {
+            font-size: 40px;
+            font-weight: 600;
+            background: linear-gradient(to right, #29c6d0 0%, #f729e2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            z-index: 1;
+          }
+
+          body .porto .link {
+            font-size: 24px;
+            font-weight: 600;
+            background: linear-gradient(to right, #29c6d0 0%, #f729e2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            z-index: 1;
+          }
+
+          body .porto .sub-headline {
+            padding-top: 28px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #888888;
+            z-index: 1;
+          }
+
+          @media only screen and (min-width: 768px) {
+            body .porto .sub-headline {
+              font-size: 24px;
+            }
+          }
+
+          body .porto .porto-img {
+            margin-top: 45px;
+          }
+
+          body .porto .porto-img div {
+            z-index: 1;
+          }
+
+          @media only screen and (min-width: 768px) {
+            body .porto .porto-img {
+              margin-top: 96px;
+            }
+          }
+
+          body .porto .porto-img-full {
+            z-index: 1;
+          }
+
+          @media only screen and (max-width: 768px) {
+            body .porto .porto-img-full {
+              width: 100px !important;
+            }
+          }
+
+          body .porto .porto-img-half {
+            z-index: 1;
+          }
+
+          @media only screen and (max-width: 768px) {
+            body .porto .porto-img-half {
+              height: 70px !important;
+            }
+          }
+
+          body .cl-light {
+            color: #eeeeee;
+          }
+
+          body .cl-light-grey-2 {
+            color: #90bcb7;
+          }
+
+          body .font-lora {
+            font-family: "Lora", sans-serif !important;
+          }
+          .animation-porto {
+            transition: transform 250ms;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+          .animation-porto:hover {
+            transform: translateY(-20px);
+
+            box-shadow: 10px 7px 10px #29c6d0;
+          }
+
+          .animation-porto2 {
+            transition: transform 250ms;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+          .animation-porto2:hover {
+            transform: translateY(-20px);
+
+            box-shadow: 10px 7px 10px #f729e2;
+          }
+
+          .animation-porto3 {
+            transition: transform 250ms;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+          .animation-porto3:hover {
+            transform: translateY(-20px);
+
+            box-shadow: 10px 7px 10px #ecc149;
+          }
+          .text-about-me {
+            font-weight: 600;
+            background: linear-gradient(to right, #29c6d0 0%, #f729e2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            z-index: 1;
+          }
+
+        </style>
+        <section class="right-circle">
+          <div class="d-flex justify-content-end">
+            <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/Right-Circle.png" alt="circle" />
+          </div>
+        </section>
+
+        <section class="porto">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-10">
+              <h4 class="headline">Outputs from Our Platform</h4>
+            </div>
+            <div class="col-md-2 text-md-right">
+              <a href="#" class="link h-100 d-inline-block text-decoration-none"> See more </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="sub-headline">
+                Our platform specialize on helping our clients work process and communication. <br />
+                Below are the products produced using our platform.
+              </p>
+            </div>
+          </div>
+          <div class="row porto-img">
+            <div class="col-4">
+              <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-1.png" class="img-fluid animation-porto" />
+            </div>
+            <div class="col-4 d-flex align-items-end flex-column">
+              <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-2.png" class="img-fluid animation-porto2" />
+              <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-3.png" class="img-fluid mt-auto animation-porto3" />
+            </div>
+            <div class="col-4">
+              <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-4.png" class="img-fluid animation-porto" />
+            </div>
+          </div>
+          <!-- about me -->
+
+          <div class="porto">
+            <h4 class="headline">About Me</h4>
+
+            <div class="row">
+              <div class="col-sm-4 bg-primary">
+                <h6>Halo kedua</h6>
+              </div>
+              <div class="col-sm-8 row">
+                <div class="col-sm-6 text-center p-3">
+                  <div style="background-color: #35295e; border-radius: 10px" class="p-3">
+                    <h3 class="text-about-me">Education</h3>
+                    <div>
+                      <h6 class="text-white">
+                        Our platform specialize on helping our clients work process and communication. <br />
+                        Below are the products produced using our platform.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 text-center p-3">
+                  <div style="background-color: #35295e; border-radius: 10px" class="p-3">
+                    <h3 class="text-about-me">Networking</h3>
+                    <div>
+                      <h6 class="text-white">
+                        Our platform specialize on helping our clients work process and communication. <br />
+                        Below are the products produced using our platform.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 text-center p-3">
+                  <div style="background-color: #35295e; border-radius: 10px" class="p-3">
+                    <h3 class="text-about-me">Music and Games</h3>
+                    <div>
+                      <h6 class="text-white">
+                        Our platform specialize on helping our clients work process and communication. <br />
+                        Below are the products produced using our platform.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 text-center p-3">
+                  <div style="background-color: #35295e; border-radius: 10px" class="p-3">
+                    <h3 class="text-about-me">Work Experience</h3>
+                    <div>
+                      <h6 class="text-white">
+                        Our platform specialize on helping our clients work process and communication. <br />
+                        Below are the products produced using our platform.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div>
+            testing
+          </div>
+
+        </section>
+
+      </section>
+   
+
+      <footer class="page-footer font-small blue">
+        <style>
+          @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+          @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap");
+
+          * {
+            font-family: "Inter", sans-serif !important;
+          }
+
+          body .font-red-hat-display {
+            font-family: "Red Hat Display", sans-serif !important;
+          }
+
+          body footer {
+            background: #141432;
+            padding-top: 50px;
+            padding-bottom: 70px;
+          }
+
+          body footer .logo {
+            font-family: "Red Hat Display", sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 38px;
+            color: #fafafd;
+          }
+
+          body footer .social-media {
+            margin-top: 55px;
+          }
+
+          body footer .copyright {
+            font-family: "Red Hat Display", sans-serif !important;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 135%;
+            color: #fafafd;
+            margin-top: 20px;
+          }
+
+          body footer .nav-footer p {
+            font-weight: 700 !important;
+            font-family: "Red Hat Display", sans-serif !important;
+            font-size: 20px;
+            line-height: 135%;
+            color: #fafafd;
+          }
+
+          body footer .nav-footer a {
+            font-weight: 400 !important;
+            font-family: "Red Hat Display", sans-serif !important;
+            font-size: 20px;
+            line-height: 135%;
+            color: #fafafd;
+          }
+
+          body footer li {
+            margin-bottom: 16px;
+          }
+        </style>
+        <div class="container text-md-left">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3 address">
+              <div class="logo font-red-hat-display">GivMoney</div>
+              <div class="social-media">
+                <a href="#">
+                  <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content10/dark/bi_linkedin.svg" alt="linkedin" class="img-fluid mr-4" />
+                </a>
+                <a href="#">
+                  <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content10/dark/bi_facebook.svg" alt="facebook" class="img-fluid mr-4" />
+                </a>
+                <a href="#">
+                  <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content10/dark/bi_twitter.svg" alt="twitter" class="img-fluid mr-4" />
+                </a>
+                <a href="#">
+                  <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content10/dark/bi_instagram.svg" alt="twitch" class="img-fluid mr-4" />
+                </a>
+              </div>
+              <div class="copyright font-red-hat-display">2021 All rights reserved.</div>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3" />
+            <div class="row col-md-6 nav-footer">
+              <div class="col-md-4 mb-md-0 mb-3">
+                <p>Features</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Payments</a>
+                  </li>
+                  <li>
+                    <a href="#!">Collections</a>
+                  </li>
+                  <li>
+                    <a href="#!">Conversions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-md-0 mb-3">
+                <p>Resources</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#!">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#!">Partnerships</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-md-0 mb-3">
+                <p>Our Company</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#!">Careers</a>
+                  </li>
+                  <li>
+                    <a href="#!">News & Media</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".fixed-top");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+  </body>
+</html>
